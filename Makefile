@@ -4,5 +4,5 @@ all:
 	#clang -Wall -Wextra -Werror -o Grace Grace.c
 	#./Grace
 	#diff Grace.c Grace_kid.c
-	clang -Wall -Wextra -Werror Sully.c -o Sully ; ./Sully
+	clang -g -Wall -Wextra -Werror Sully.c -o Sully ; ./Sully
 
